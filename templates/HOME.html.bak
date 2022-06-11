@@ -34,7 +34,7 @@
        <div class="container my-5">
          <div class="row">
            <div class="col-md-10 col-sm-6 mx-auto">
-               <h1>Sales Price : prediction</h1>
+               <h1>Sales Price : {{prediction}}</h1>
 
              <form class="" action="/predict" method="POST">
 
