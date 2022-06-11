@@ -13,72 +13,7 @@
               
           }
 
-/*          footer a{
-            color: #fff;
-          }
-          footer a:hover{
-            color: #fff;
-          }
-          .centerdiv{
-            height: 15vh;
-            display: flex;
-            #justify-content: center;
-            align-items: center;
-          }
-          .centerdiv a{
-            height: 30px;
-            width: 30px;
-            background-color: #f5f6fa;
-            border-radius: 50px;
-            text-align: center;
-            margin: 5px;
-            line-height: 30px;
-            #box-shadow: 1px 4px 2px 2px #dcdde1;
-            position: relative;
-            overflow: hidden;
-          }
-          .centerdiv a i{
-            transition: all 0.3s linear;
-          }
-          .centerdiv a:hover i{
-            transform: scale(1.5);
-            color: #f5f6fa;
-          }
-          .centerdiv a:before{
-            content: "";
-            width: 120%; height: 120%;
-            position: absolute;
-            top: 90%; left: -50%;
-            background-color: #00a8ff;
-            transform: rotate(60deg);
-          }
 
-          .centerdiv a:hover:before{
-            animation: socialicons 0.8s 1;
-            animation-fill-mode: forwards;
-          }
-          @keyframes socialicons {
-
-            0%{ top: 90%; left: -50%;}
-            50%{ top: -60%; left: -10%;}
-            100%{ top: -10%; left: -10%}
-          }
-
-          .fa-facebook-f{
-            color: #e84393;
-          }
-          .fa-instagram{
-            color: #e84393;
-          }
-          .fa-github{
-            color: #e84118;
-          }
-          .fa-linkedin{
-            color: #0097e6;
-          }
-          .fa-twitter{
-            color: #0097e6;
-          }*/
       </style>
 
     </head>
@@ -99,7 +34,7 @@
        <div class="container my-5">
          <div class="row">
            <div class="col-md-10 col-sm-6 mx-auto">
-               <h1>Sales Price : {{prediction}}</h1>
+               <h1>Sales Price : prediction</h1>
 
              <form class="" action="/predict" method="POST">
 
