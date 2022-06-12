@@ -8,8 +8,43 @@
       <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/Style.css')}}">
       <style>
           body{
+ <!--ICON-->
+<link rel="shortcut icon" href="images/icon.ico">
+
+<!--META TAGS-->
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="author" content="Mahesh">
+<meta name="description" content="A digital resume">
+<meta name="keywords" content="resume, my resume, mahesh bharadwaj, CV, digital resume, mahesh resume, cool resume, digital cv">
+<meta property="og:locale" content="en_US" />
+<meta property="og:url" content="" />
+<meta property="og:site_name" content="MyResume || Mahesh Bharadwaj" />
+
+<!--PLUGIN-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+<!--EXTERNAL CSS-->
+<link rel="stylesheet" href="css/style.css">
+
+<!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=PT+Sans+Narrow&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">  
+
+<!--FONT AWESOME-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
               #background: #A7ADD6;
-              background:#A7ADD6 ;
+   
+          background:#A7ADD6 ;
               
           }
 
@@ -33,7 +68,7 @@
      <div class="wrapper">
        <div class="container my-5">
          <div class="row">
-           <div class="col-md-10 col-sm-6 mx-auto">
+             <div class="col-md-10 col-sm-6 mx-auto">
                <h1>Sales Price : {{prediction}}</h1>
 
              <form class="" action="/predict" method="POST">
@@ -137,6 +172,7 @@
      </div>
 
 
+			   
      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
