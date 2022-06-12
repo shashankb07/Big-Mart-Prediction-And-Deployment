@@ -9,7 +9,7 @@ The Data
 We have train (8523) and test (5681) data set, train data set has both input and output variable(s). You need to predict the sales for test data set.
 
 Variable	Description
-Item_Identifier	Unique product ID
+|Item_Identifier	||Unique product ID|  
 Item_Weight	Weight of product
 Item_Fat_Content	Whether the product is low fat or not
 Item_Visibility	The % of total display area of all products in a store allocated to the particular product
