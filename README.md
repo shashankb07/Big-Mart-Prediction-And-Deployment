@@ -29,3 +29,6 @@ Item_Outlet_Sales	Sales of the product in the particulat store. This is the outc
 # Project is handled in a structured way with modular coding.
 Below is the work flow if this project
 ![Process Flow Final](https://user-images.githubusercontent.com/54209321/173243305-f8a69f56-a41a-40c8-aa1a-3039ccd0dd92.png)
+
+# Snippet of Project
+![Output](https://user-images.githubusercontent.com/54209321/173243699-69633ca5-161a-4220-9731-3d0e0ef42614.PNG)
