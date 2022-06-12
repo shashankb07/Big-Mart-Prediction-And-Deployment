@@ -1,0 +1,128 @@
+15.6s 1 <class 'pandas.core.frame.DataFrame'>
+15.6s 2 RangeIndex: 8523 entries, 0 to 8522
+15.6s 3 Data columns (total 12 columns):
+15.6s 4 #   Column                     Non-Null Count  Dtype
+15.6s 5 ---  ------                     --------------  -----
+15.6s 6 0   Item_Identifier            8523 non-null   object
+15.6s 7 1   Item_Weight                7060 non-null   float64
+15.6s 8 2   Item_Fat_Content           8523 non-null   object
+15.6s 9 3   Item_Visibility            8523 non-null   float64
+15.6s 10 4   Item_Type                  8523 non-null   object
+15.6s 11 5   Item_MRP                   8523 non-null   float64
+15.6s 12 6   Outlet_Identifier          8523 non-null   object
+15.6s 13 7   Outlet_Establishment_Year  8523 non-null   int64
+15.6s 14 8   Outlet_Size                6113 non-null   object
+15.6s 15 9   Outlet_Location_Type       8523 non-null   object
+15.6s 16 10  Outlet_Type                8523 non-null   object
+15.6s 17 11  Item_Outlet_Sales          8523 non-null   float64
+15.6s 18 dtypes: float64(4), int64(1), object(7)
+15.6s 19 memory usage: 799.2+ KB
+28.5s 20 <class 'pandas.core.frame.DataFrame'>
+28.5s 21 RangeIndex: 8523 entries, 0 to 8522
+28.5s 22 Data columns (total 10 columns):
+28.5s 23 #   Column                Non-Null Count  Dtype
+28.5s 24 ---  ------                --------------  -----
+28.5s 25 0   Item_Weight           8523 non-null   float64
+28.5s 26 1   Item_Fat_Content      8523 non-null   int64
+28.5s 27 2   Item_Visibility       8523 non-null   float64
+28.5s 28 3   Item_Type             8523 non-null   int64
+28.5s 29 4   Item_MRP              8523 non-null   float64
+28.5s 30 5   Outlet_Size           8523 non-null   int64
+28.5s 31 6   Outlet_Location_Type  8523 non-null   int64
+28.5s 32 7   Outlet_Type           8523 non-null   int64
+28.5s 33 8   Item_Outlet_Sales     8523 non-null   float64
+28.5s 34 9   Years_Established     8523 non-null   int64
+28.5s 35 dtypes: float64(4), int64(6)
+28.5s 36 memory usage: 666.0 KB
+28.6s 37 <class 'pandas.core.frame.DataFrame'>
+28.6s 38 RangeIndex: 5681 entries, 0 to 5680
+28.6s 39 Data columns (total 9 columns):
+28.6s 40 #   Column                Non-Null Count  Dtype
+28.6s 41 ---  ------                --------------  -----
+28.6s 42 0   Item_Weight           5681 non-null   float64
+28.6s 43 1   Item_Fat_Content      5681 non-null   object
+28.6s 44 2   Item_Visibility       5681 non-null   float64
+28.6s 45 3   Item_Type             5681 non-null   object
+28.6s 46 4   Item_MRP              5681 non-null   float64
+28.6s 47 5   Outlet_Size           5681 non-null   object
+28.6s 48 6   Outlet_Location_Type  5681 non-null   object
+28.6s 49 7   Outlet_Type           5681 non-null   int64
+28.6s 50 8   Years_Established     5681 non-null   int64
+28.6s 51 dtypes: float64(3), int64(2), object(4)
+28.6s 52 memory usage: 399.6+ KB
+31.9s 53 (8523, 9) (6818, 9) (1705, 9)
+33.1s 54 R2 score of Linear regression: 0.5246196287444576
+33.4s 55 mean absolute error: 855.324884400431
+33.4s 56 mean squared error: 1292069.6193297089
+33.6s 57 Root Mean Squared Error: 1136.6924031283525
+36.2s 58 LinearRegression(normalize=True) Scores:
+36.2s 59 0.53
+36.2s 60 0.5
+36.2s 61 0.49
+36.2s 62 0.51
+36.2s 63 0.51
+36.2s 64 Average LinearRegression(normalize=True) score: 0.51
+50.1s 65 RandomForestRegressor(max_depth=5, min_samples_leaf=100, n_estimators=200,
+50.1s 66 n_jobs=4, random_state=22) Scores:
+50.1s 67 0.56
+50.1s 68 0.52
+50.1s 69 0.52
+50.1s 70 0.56
+50.1s 71 0.57
+50.1s 72 Average RandomForestRegressor(max_depth=5, min_samples_leaf=100, n_estimators=200,
+50.1s 73 n_jobs=4, random_state=22) score: 0.55
+50.3s 74 Lasso(alpha=0.05) Scores:
+50.3s 75 0.53
+50.3s 76 0.5
+50.3s 77 0.49
+50.3s 78 0.51
+50.3s 79 0.5
+50.3s 80 Average Lasso(alpha=0.05) score: 0.51
+50.7s 81 Fitting 2 folds for each of 3 candidates, totalling 6 fits
+95.3s 82 Best: 0.537 using {'n_estimators': 1000}
+95.3s 83 0.500 (0.008) with: {'n_estimators': 10}
+95.3s 84 0.532 (0.003) with: {'n_estimators': 100}
+95.3s 85 0.537 (0.003) with: {'n_estimators': 1000}
+96.5s 86 R2 score for Grid Search:  57.03797382208331
+110.5s 87 RandomForestRegressor() Scores:
+110.5s 88 0.56
+110.5s 89 0.52
+110.5s 90 0.52
+110.5s 91 0.56
+110.5s 92 0.56
+110.5s 93 Average RandomForestRegressor() score: 0.55
+111.2s 94 [CV] END ....................................n_estimators=10; total time=   0.2s
+111.2s 95 [CV] END ..................................n_estimators=1000; total time=  15.2s
+111.2s 96 [CV] END ...................................n_estimators=100; total time=   2.2s
+111.2s 97 [CV] END ....................................n_estimators=10; total time=   0.2s
+111.2s 98 [CV] END ..................................n_estimators=1000; total time=  15.6s
+117.2s 99 /opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2755: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+117.2s 100 FutureWarning,
+117.2s 101 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+117.8s 102 [NbConvertApp] Writing 1005233 bytes to __notebook__.ipynb
+121.2s 103 /opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2755: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+121.2s 104 FutureWarning,
+121.2s 105 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+122.6s 106 [NbConvertApp] Support files will be in __results___files/
+122.6s 107 [NbConvertApp] Making directory __results___files
+122.6s 108 [NbConvertApp] Making directory __results___files
+122.6s 109 [NbConvertApp] Making directory __results___files
+122.6s 110 [NbConvertApp] Making directory __results___files
+122.6s 111 [NbConvertApp] Making directory __results___files
+122.6s 112 [NbConvertApp] Making directory __results___files
+122.6s 113 [NbConvertApp] Making directory __results___files
+122.6s 114 [NbConvertApp] Making directory __results___files
+122.6s 115 [NbConvertApp] Making directory __results___files
+122.6s 116 [NbConvertApp] Making directory __results___files
+122.6s 117 [NbConvertApp] Making directory __results___files
+122.6s 118 [NbConvertApp] Making directory __results___files
+122.6s 119 [NbConvertApp] Making directory __results___files
+122.6s 120 [NbConvertApp] Making directory __results___files
+122.6s 121 [NbConvertApp] Making directory __results___files
+122.6s 122 [NbConvertApp] Making directory __results___files
+122.6s 123 [NbConvertApp] Making directory __results___files
+122.6s 124 [NbConvertApp] Making directory __results___files
+122.6s 125 [NbConvertApp] Making directory __results___files
+122.6s 126 [NbConvertApp] Making directory __results___files
+122.6s 127 [NbConvertApp] Making directory __results___files
+122.6s 128 [NbConvertApp] Writing 409334 bytes to __results__.html
