@@ -4,7 +4,7 @@ Primary aim of this project is to build machine learning model that give the sho
 [You can reach the application here] https://big-mart-pred.herokuapp.com/predict
 # Big-Mart-Prediction-And-Deployment
 Big mart sales prediction and deployment using heroku server
-Problem Statement
+# Problem Statement
 The data scientists at BigMart have collected 2013 sales data for 1559 products across 10 stores in different cities. Also, certain attributes of each product and store have been defined. The aim is to build a predictive model and find out the sales of each product at a particular store.
 
 Using this model, BigMart will try to understand the properties of products and stores which play a key role in increasing sales.
