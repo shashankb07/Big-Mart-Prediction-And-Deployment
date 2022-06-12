@@ -23,3 +23,4 @@ Outlet_Type	Whether the outlet is just a grocery store or some sort of supermark
 Item_Outlet_Sales	Sales of the product in the particulat store. This is the outcome variable to be predicted.
 # Project is handled in a structured way with modular coding.
 Below is the work flow if this project
+![Process Flow Final](https://user-images.githubusercontent.com/54209321/173243305-f8a69f56-a41a-40c8-aa1a-3039ccd0dd92.png)
